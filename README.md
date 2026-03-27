@@ -35,6 +35,7 @@ The dataset includes:
 ## ⚙️ Installation
 
 https://github.com/tejasreerani/Fitbit-_-Calorie-Burn-Prediction-Workout-Pattern-Clustering-Using-Fitbit-Data.git
+
 cd Fitbit-CalorieBurn-Clustering
 pip install -r requirements.txt
 
