@@ -33,35 +33,31 @@ The dataset includes:
 
 
 ## ⚙️ Installation
-Clone the repo and install dependencies:
-```bash
-git clone https://github.com/<your-username>/Fitbit-CalorieBurn-Clustering.git
+
+https://github.com/tejasreerani/Fitbit-_-Calorie-Burn-Prediction-Workout-Pattern-Clustering-Using-Fitbit-Data.git
 cd Fitbit-CalorieBurn-Clustering
 pip install -r requirements.txt
 
-
 ## 📂 Repository Structure
-
 Fitbit-CalorieBurn-Clustering/
 │
-├── app.py                  # Your Streamlit code
-├── knn_model.pkl           # Serialized trained model
-├── Fitbit_dataset.csv       # Dataset (or link if too large)
+├── app.py                  # Streamlit code
+├── knn_model.pkl           # Trained KNN model
+├── Fitbit_dataset.csv      # Dataset (or link if too large)
 ├── README.md               # Project overview
-├── /images                 # Screenshots of dashboard/prediction
+├── /images                 # Screenshots
 
-## Dashboard Preview
-
-## Home page
-<img width="947" height="496" alt="image" src="https://github.com/user-attachments/assets/cd01e836-7664-4030-bf00-71f38b0586b8" />
+## 📊 Dashboard Preview
+Home page
+<img src="https://github.com/user-attachments/assets/cd01e836-7664-4030-bf00-71f38b0586b8" width="947" height="496" />
 
 ## Dashboard page
-<img width="806" height="473" alt="image" src="https://github.com/user-attachments/assets/6eec4172-f745-41b3-8fc6-652c4de47dc9" />
+<img src="https://github.com/user-attachments/assets/6eec4172-f745-41b3-8fc6-652c4de47dc9" width="806" height="473" />
 
 ## Prediction page
-<img width="814" height="482" alt="image" src="https://github.com/user-attachments/assets/c89ca0c5-729f-42db-82b9-1365796fe63c" />
+<img src="https://github.com/user-attachments/assets/c89ca0c5-729f-42db-82b9-1365796fe63c" width="814" height="482" />
 
-## 📦 requirements.txt
+## 📦 Requirements
 
 streamlit==1.32.0
 pandas==2.2.1
@@ -70,11 +66,11 @@ matplotlib==3.8.3
 seaborn==0.13.2
 scikit-learn==1.4.1.post1
 
-👩‍💻 Author
+## 👩‍💻 Author
 Kurmapu Lakshmi Tejasree
 
-🔑 Short Conclusion
-This project successfully integrates calorie burn prediction with workout pattern clustering using Fitbit data. By combining supervised regression (KNN) and unsupervised learning (KMeans + PCA), it delivers both accurate predictions and meaningful behavioral insights. Packaged with Streamlit for interactivity and GitHub for reproducibility, it stands out as a recruiter‑ready showcase of end‑to‑end data science, bridging technical rigor with real‑world fitness applications.
+## 🔑 Conclusion
+This project integrates calorie burn prediction with workout pattern clustering using Fitbit data. By combining supervised regression (KNN) and unsupervised learning (KMeans + PCA), it delivers accurate predictions and meaningful behavioral insights. Packaged with Streamlit for interactivity and GitHub for reproducibility, it stands out as a recruiter‑ready showcase of end‑to‑end data science.
 
 
 
